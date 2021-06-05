@@ -1,0 +1,9 @@
+{
+    "token": "your bot token here",
+    "botID": "your bot id here",
+    "ownerID": "bot owner id here",
+    "mongo": "link to mongodb",
+    "invite": "invite link of the bot",
+    "developerMode": true,
+    "defaultPrefix": ";"
+}

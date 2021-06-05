@@ -1,0 +1,36 @@
+{
+  "name": "valderbot",
+  "version": "1.0.0",
+  "description": "My own Discord bot template",
+  "main": "index.js",
+  "author": "Rohupt",
+  "dependencies": {
+    "chokidar": "^3.4.2",
+    "discord.js": "^12.3.1",
+    "edit-json-file": "^1.4.1",
+    "eslint": "^7.27.0",
+    "express": "^4.17.1",
+    "mathjs": "^9.4.1",
+    "module-alias": "^2.2.2",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.12.11"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@data": "./Data",
+    "@modules": "./Modules",
+    "@events": "./Events",
+    "@util": "./Utilities"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "@types/module-alias": "^2.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": []
+}
